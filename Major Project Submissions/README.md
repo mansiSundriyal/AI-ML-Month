@@ -1,53 +1,52 @@
 # Major project : 
-# (This can done in groups of 2 - 3 people)
+
+TEAM MEMBERS :
+
+    * Mansi Sundriyal (04101022019)
+    * Anjali Kumari (01101022019)
 
 ## Problem Statements - 
-![1](https://user-images.githubusercontent.com/82227477/177264668-ce254b14-e8b7-49b7-82d7-3e307a011916.png)<br>
-![2](https://user-images.githubusercontent.com/82227477/177264800-aa8896e5-ead8-40c6-be94-f53d1ee56aca.png)<br>
-![3](https://user-images.githubusercontent.com/77978729/177378676-f6e85362-7201-4624-a7c5-3fc2d1ae0602.png)
-![4](https://user-images.githubusercontent.com/77978729/177378731-e05414e2-fc63-4685-8205-b17b6f7ef742.png)
-![5](https://user-images.githubusercontent.com/77978729/177378756-afa40739-45f5-4c41-9d8d-111312572fc5.png)
-![6](https://user-images.githubusercontent.com/77978729/177378792-ea048f47-3062-4e3d-bfba-ee382e315658.png)
-![7](https://user-images.githubusercontent.com/77978729/177378861-ffaeb5d2-42bd-40f2-b2cc-49f6ff3e30cc.png)
-![8](https://user-images.githubusercontent.com/77978729/177378887-090ee8f8-0d1d-469d-b6a9-3368fee2fad2.png)
+    ![7](https://user-images.githubusercontent.com/77978729/177378861-ffaeb5d2-42bd-40f2-b2cc-49f6ff3e30cc.png)
+
 
 ## Datasets <br>
 
-Twitter Dataset: https://www.kaggle.com/datasets/kazanova/sentiment140 <br>
-Disease Burden Dataset: https://www.kaggle.com/datasets/shivkumarganesh/disease-burden-by-cause <br>
-Gender Development Dataset: https://www.kaggle.com/datasets/elmartini/gender-development-index-2019 <br>
-Campus Placement Dataset: https://www.kaggle.com/datasets/benroshan/factors-affecting-campus-placement <br>
-Employee Attrition Dataset: https://www.kaggle.com/datasets/patelprashant/employee-attrition <br>
-Wine Quality Prediction Dataset: https://www.kaggle.com/datasets/yasserh/wine-quality-dataset <br>
-Breast Cancer Prediction Dataset: https://www.kaggle.com/datasets/merishnasuwal/breast-cancer-prediction-dataset <br>
-Iris Flower Dataset: https://www.kaggle.com/datasets/arshid/iris-flower-dataset <br>
-Stroke Prediction Dataset: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset <br>
-Heart Failure Prediction Dataset: https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data <br>
-Company Bankruptcy Prediction Dataset: https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction <br>
-Credit Card Approval Prediction Dataset: https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction <br>
-Divorce Prediction Dataset: https://www.kaggle.com/datasets/andrewmvd/divorce-prediction <br>
-Diabetes Prediction Dataset: https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database <br>
-World Happiness Prediction Dataset: https://www.kaggle.com/datasets/unsdsn/world-happiness <br>
-Detection of Fake News: https://www.kaggle.com/datasets/ruchi798/source-based-news-classification <br>
+Diabetes Prediction Dataset: 
+        
+    https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database <br>
 
-You can go through all the problem statements above and pick one to solve. After that follow these steps -
-1) Create a jupyter notebook or a colab notebook.
-2) Show all the calculations required and print them.
-3) The final calculation for the answer must be in a separate cell.
-4) Create a text cell to give explanations wherever you think is necessary.
-5) The visualization questions must be accompanied with an explanation as well as conclusions.
-6) **Write all the answers in point form. Answers must be to the point.**
+COLAB LINK : 
 
-## Submission procedure:
-Follow these video for the submission. <br>
-1. https://drive.google.com/file/d/1Brs-mx4Q9jlNVrevFZ2pVUNX5G235Tjc/view?usp=sharing
-2. https://drive.google.com/file/d/13ZgUH1u4GN8WIRlunkRLyoNmeq5r8ALf/view?usp=sharing
+    https://colab.research.google.com/drive/1v3uZaOs9mwC1YzNG7GOi4S4BsB0cCE31?usp=sharing
 
-## Pull request naming format:
-  #### Name_Dataset name <br>
-  For example: Manvi Kaur_Loan Default Prediction
-  
-For any doubts or queries, put them on our discord server (doubts will be entertained on the ask-oc channel only) and we'll get back to you.
-ALL THE BEST!!
 
-## SUBMIT BY 10th JULY 11:59PM SHARP
+
+KNN ALGORITHM:
+
+    * K-Nearest Neighbours algorithm (or KNN) is one of the most used learning algorithms due to its simplicity.
+    * KNN is a lazy learning, non-parametric algorithm. It uses data with several classes to predict the classification of the new sample point. KNN is non-         parametric since it doesn’t make any assumptions on the data being studied, i.e., the model is distributed from the data. 
+    * KNN can be used in both regression and classification predictive problems.
+
+How does KNN work?
+
+    * The k-nearest neighbour algorithm stores all the available data and classifies a new data point based on the similarity measure (e.g., distance                 functions). This means when new data appears. Then it can be easily classified into a well-suited category by using the K- NN algorithm. 
+    * Suppose there are two classes, i.e., Class A and Class B, and we have a new unknown data point, so this data point will lie in which of these classes. To       solve this problem, we need a K-NN algorithm. With the help of K-NN, we can easily identify the class of a particular dataset. The data point is               classified by a majority vote of its neighbours, with the data point being assigned to the class most common amongst its K nearest neighbours 
+      measured by a distance function.
+      
+Why did we use KNN?
+
+    a. We have properly labelled data. For example, here in this dataset if we are predicting someone is having diabetes or not the final label can be 1 or 0. It cannot be NaN or -1.
+    b. Data is noise-free. For this diabetes data set we cannot have a Glucose level as 0 or 10000. It’s practically impossible.
+Some Advantages of KNN:
+
+    * Simple to implement and intuitive to understand
+    * Can learn non-linear decision boundaries when used for classification and regression. Can come up with a highly flexible decision boundary adjusting the       value of K.
+    * No Training Time for classification/regression: The KNN algorithm has no explicit training step and all the work happens during prediction
+    * Constantly evolves with new data: Since there is no explicit training step, as we keep adding new data to the dataset, the prediction is adjusted without       having to retrain a new model.
+    * Single Hyperparameters: There is a single hyperparameter, the value of K. This makes hyper parameter tuning easy.
+    * Choice of distance metric: There are many distance metrics to choose from. Some popular distance metrics used are Euclidean, Manhattan, Minkowski,             hamming distance and so on.
+    * Quick calculation time
+    * Versatile – useful for regression and classification
+    * High accuracy – you do not need to compare with better-supervised learning models
+    * No assumptions about data – no need to make additional assumptions, tune several parameters, or build a model. This makes it crucial in nonlinear data         case. 
+
